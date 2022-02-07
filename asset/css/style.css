@@ -9,8 +9,7 @@ body{
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-/* HEADER */
-
+/* ---------------Header--------------- */
 header{
     margin: 2vh 10vw 2vh 10vw;
 }
@@ -37,11 +36,10 @@ header{
 ul{
     list-style: none;
 }
+/* ---------------Header--------------- */
 
-/* HEADER */
 
-/* MAIN */
-
+/*---------------Main---------------*/
 main{
     width: 80vw;
     margin: 4vh 10vw 0 10vw;
@@ -54,11 +52,16 @@ main{
     background-repeat: no-repeat;
     border-radius: 10px;
     position: relative;
-    
 }
 
+.bg-blue{
+    height: 80vh;
+    margin: 4vh 0 0 0;
+}
+    
+/*---------------Overlay---------------*/         
 .overlay{
-    background-color: rgba(255, 38, 0, 0.2);
+    background-color: rgba(136, 255, 0, 0.1);
     border-radius: 10px;
     position: absolute;
     top: 0;
@@ -67,81 +70,134 @@ main{
     right: 0;
 }
 
-.text-overlay{
-    color: white;
+.bg-gray{
+    background-color: rgba(223, 178, 30, 0.2);
+    border-radius: 10px;
     position: absolute;
-    top: 70%;
-    right: 50%;
-    left: 5%;
+    height: 45%;
+    width: 100%;
 }
+/*---------------Overlay---------------*/              
 
-.sub-text-overlay{
-    color: white;
-    position: absolute;
-    top: 82%;
-    right: 50%;
-    left: 5%;
-}
-  
-  
-    
-
-.bg-blue{
-    height: 80vh;
-    background-color: rgb(101, 148, 209);
-    margin: 4vh 0 0 0;
-}
-
-/* MAIN */
-
-/* UTILITY */
-
-.column-light-blue{
-    background-color: rgb(103, 235, 235);
-}
-
+/*---------------Utility---------------*/
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
 
-/* UTILITY */
+.overlay h2{
+    color: white;
+    position: absolute;
+    top: 70%;
+    right: 50%;
+    left: 5%;
+    font-size: 20px;
+}
 
+.overlay span{
+    color: white;
+    position: absolute;
+    top: 82%;
+    right: 50%;
+    left: 5%;
+    font-size: 13px;
+}
+
+.row h5{
+    font-size: 0.7em;
+    position: absolute;
+    top: 50%;
+}
+
+.row p{
+    font-size: 0.6em;
+    position: absolute;
+    top: 55%;
+}
+
+.top span{
+    font-size: 0.7em;
+    position: absolute;
+    top: 60%;
+    font-size: 13px;
+}
+
+/*---------------Utility---------------*/
+
+/*---------------Top Left Center Right---------------*/
 .top{
     width: 80vw;
     height: 10vh;
     margin: 0 0 3vh 0;
+    position: relative;
 }
 
 .left{
     width: 20%;
     height: 64vh;
     float: left;
+    position: relative;
 }
-
-.right{
-    width: 20%;
-    height: 64vh;
-    float: right;
-}
-    
 
 .center{
     width: calc(60% - 3vw);
     height: 64vh;
     float: left;
     margin: 0 1.5vw 0 1.5vw;
-    
+    position: relative;
 }
 
-/* FOOTER */
+.right{
+    width: 20%;
+    height: 64vh;
+    float: right;
+    position: relative;
+}
 
-footer{
+.img-left{
+    background-image: url('../img/img-1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+}
+
+
+.img-center{
+    background-image: url('../img/banner-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 45%;
+    position: absolute;
+}
+
+.img-right{
+    background-image: url('../img/img-3.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    
+/* ---------------Top Left Center Right--------------- */    
+/* Main */
+
+/* ---------------Footer--------------- */
+
+.foot{
     background-color: rgb(139, 94, 139);
     width: 80vw;
     height: 5vh;
     margin: 2vh 10vw 2vh 10vw;
+    position: relative;
 }
+    
 
-/* FOOTER */
+.foot span{
+    position:absolute;
+    margin-left: 50%;
+    display: inline-block;
+}
