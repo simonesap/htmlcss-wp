@@ -205,3 +205,37 @@ footer text-heart{
     font-size: 25px;
     display: inline-block;
 }
+
+.column-light-blue left:hover{
+    content: url('../img/img-4.jpg');
+}
+
+/* ---------------Hover--------------- */
+.active:hover{
+    color: rgb(238, 220, 62);
+}
+
+li:hover a{
+    background-color: black;
+    border-radius: 5px;
+}
+
+.right:hover{
+    content: url('../img/img-6.jpg');
+    background-size: cover;
+}
+
+.left:hover{
+    content: url('../img/img-4.jpg');
+    background-size: cover;
+}
+
+.center:hover{
+    content: url('../img/img-5.jpg');
+    background-size: cover;
+}
+
+.bg-yellow:hover{
+    opacity: 0.5;
+}
+/* ---------------Hover--------------- */
