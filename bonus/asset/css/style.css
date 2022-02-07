@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* ---------------Header--------------- */
+header{
+    margin: 2vh 10vw 2vh 10vw;
+}
+
+.logo{
+   padding-right: 3vw;
+   border-right: 1px solid gainsboro; 
+}
+
+
+.menu-principale a{
+    display: inline-block;
+    margin: 5vh 0 0 0;
+    text-decoration: none;
+    color: black;
+}
+
+.menu-principale li{
+    display: inline-block;
+    margin-right: 1vw;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+/* ---------------Header--------------- */
+
+
+/*---------------Main---------------*/
+main{
+    width: 80vw;
+    margin: 4vh 10vw 0 10vw;
+}
+
+.bg-yellow{
+    height: 80vh;
+    background-image: url('../img/banner.jpg');
+    background-size: 100% 618px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
+}
+
+.bg-blue{
+    height: 80vh;
+    margin: 4vh 0 0 0;
+}
+    
+/*---------------Overlay---------------*/         
+.overlay{
+    background-color: rgba(136, 255, 0, 0.1);
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.bg-gray{
+    background-color: rgba(223, 178, 30, 0.2);
+    border-radius: 10px;
+    position: absolute;
+    height: 45%;
+    width: 100%;
+}
+/*---------------Overlay---------------*/              
+
+/*---------------Utility---------------*/
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.overlay h2{
+    color: white;
+    position: absolute;
+    top: 70%;
+    right: 50%;
+    left: 5%;
+    font-size: 20px;
+}
+
+.overlay span{
+    color: white;
+    position: absolute;
+    top: 82%;
+    right: 50%;
+    left: 5%;
+    font-size: 13px;
+}
+
+.row h5{
+    font-size: 0.7em;
+    position: absolute;
+    top: 50%;
+}
+
+.row p{
+    font-size: 0.6em;
+    position: absolute;
+    top: 55%;
+}
+
+.top span{
+    font-size: 0.7em;
+    position: absolute;
+    top: 60%;
+    font-size: 13px;
+}
+
+/*---------------Utility---------------*/
+
+/*---------------Top Left Center Right---------------*/
+.top{
+    width: 80vw;
+    height: 10vh;
+    margin: 0 0 3vh 0;
+    position: relative;
+}
+
+.left{
+    width: 20%;
+    height: 64vh;
+    float: left;
+    position: relative;
+}
+
+.center{
+    width: calc(60% - 3vw);
+    height: 64vh;
+    float: left;
+    margin: 0 1.5vw 0 1.5vw;
+    position: relative;
+}
+
+.right{
+    width: 20%;
+    height: 64vh;
+    float: right;
+    position: relative;
+}
+
+.img-left{
+    background-image: url('../img/img-1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+}
+
+
+.img-center{
+    background-image: url('../img/banner-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 45%;
+    position: absolute;
+}
+
+.img-right{
+    background-image: url('../img/img-3.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+}
+
+/* ---------------Top Left Center Right--------------- */    
+/* Main */
+
+/* ---------------Footer--------------- */
+
+footer{
+    margin: 2vh 10vw 2vh 40vw;
+    position: relative;
+}
+    
+
+footer text-heart{
+    position:absolute;
+    left: calc(80vw / 2.5);
+    display: inline-block;
+}
+
+#heart{
+    color: rgb(238, 220, 62);
+    font-size: 25px;
+    display: inline-block;
+}

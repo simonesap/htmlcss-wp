@@ -181,23 +181,27 @@ main{
     width: 100%;
     height: 50%;
     position: absolute;
-    
+}
+
 /* ---------------Top Left Center Right--------------- */    
 /* Main */
 
 /* ---------------Footer--------------- */
 
-.foot{
-    background-color: rgb(139, 94, 139);
-    width: 80vw;
-    height: 5vh;
-    margin: 2vh 10vw 2vh 10vw;
+footer{
+    margin: 2vh 10vw 2vh 40vw;
     position: relative;
 }
     
 
-.foot span{
+footer text-heart{
     position:absolute;
-    margin-left: 50%;
+    left: calc(80vw / 2.5);
+    display: inline-block;
+}
+
+#heart{
+    color: rgb(238, 220, 62);
+    font-size: 25px;
     display: inline-block;
 }
